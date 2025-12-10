@@ -1,0 +1,47 @@
+/* Reseteo */
+/* Reseteo para eliminar el espacio extra del navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; /* Asegura que el body tenga la altura de la ventana */
+}
+
+body{
+    background-image: url(../assets/landing.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 10px;
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.texto_grande{
+    font-size: 30px;
+}
+
+.boton_accion button{
+    display: flex;
+    margin-top: 10px;
+    padding: 1px 100px;
+    justify-content: center;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+
