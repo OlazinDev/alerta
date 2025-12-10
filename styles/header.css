@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    gap: 20px;
+    background: wheat;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu_logo{
+    width: 50x;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aquamarine;
+    padding: 5px;
+}
+.menu_logo img{
+    max-width: 60px;
+    height: auto;
+}
